@@ -1,93 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Bros Unleashed Armory</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  
-body{background-color:#000000; color:#FFFFFF}
-  
-body {
-  font-family: Arial, Helvetica, sans-serif;
+<html>
+  <style>
+body{background-color:#000000; color:#FFFFFF}    
+   
+  ul {
+  list-style-type: none;
   margin: 0;
-  
-}/
-
-/* Style the header */
-.header {
-  padding: 80px;
-  text-align: center;
-  color: white;
-}
-
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
+  padding: 0;
   overflow: hidden;
-  background-color: #000000;
+  background-color:color: #FFFFFF;
+  position: fixed;
+  top: 240;
+  width: 100%;
+    font-size: 18px  
 }
 
-/* Style the navigation bar links */
-.navbar a, a:visited, a:hover, a:active {
-  color: inherit;
+    
+li {
   float: left;
+    
+  border: 1px solid #998855;
+}
+
+li a {
   display: block;
-  color: #998855;
-  font-size: 30px;
+  color: 998855;
   text-align: center;
-  padding:20px 10px;
- text-decoration: underline
-  
-  
+  padding: 6px 16px;
+
+  text-decoration: none;
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #998855;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#998855;
   color: black;
 }
-  
-</style>
-</head>
-<body>
-<div class="navbar">
-  <a href="Runewords.html">Runewords</a>
-  <a href="Unique Armor.html">Unique Armor</a>
-  <a href="Unique Weapons.html">Unique Weapons</a>    
-  <a href="Unique Jewelry.html">Unique Jewelry</a> 
-  <a href="Unique Stuff.html">Unique Misc.</a>  
-  <a href="Sets.html">Set Items</a>
-  <a href="WhiteArmors.html">Base Armors</a>  
-  <a href="WhiteWeapons.html">Base Weapons</a>  
-  <a href="Gems.html">Gems</a>
-</div>  
-  
-<div class="navbar">  
-  <a href="Prefixes.html">Prefixes</a>
-  <a href="Suffixes.html">Suffixes</a>   
+
+.active {
+  background-color: #4CAF50;
+}
+    
+div#wrapperHeader {
+ width:100%;
+ height;200px; /* height of the background image? */
+ background:url(images/header.png) repeat-x 0 0;
+ text-align:left;
+}
+
+div#wrapperHeader div#header {
+ width:1000px;
+ height:200px;
+  max-width: 100%;
+}
+
+div#wrapperHeader div#header img {
+ width:; /* the width of the logo image */
+ height:; /* the height of the logo image */
+ margin:0 auto;
+}    
+
+}
+  </style>
+ <head>
+   
+ </head>
+ <body>
+  <div id="wrapperHeader">
+    <div id="header">
+             <img src="https://i.imgur.com/Jq8YIc9.png"  alt="logo" />
+    </div> 
 </div>
-<div class="navbar">  
-  <a href="RecipesNormal.html">Normal Recipes</a>  
-  <a href="RecipesMagical.html">Magic Recipes</a>
-  <a href="RecipesRare.html">Rare Recipes</a>
-  <a href="RecipesCrafted.html">Crafted Recipes</a>
-  <a href="RecipesSet.html">Set Recipes</a>
-  <a href="RecipesUnique.html">Unique Recipes</a>
-  <a href="RecipesOther.html">Other Recipes</a>
-</div>
-<div class="navbar">    
-  <a href="BossStats.html">Boss Stats</a>
-  <a href="MonProps.html">Enemy Counters and Buffs</a>
-</div>
-</body>
+  <ul>
+    <li><a href="Runewords.html">Runewords</a></li>
+    <li>  <a href="Unique Armor.html">Unique Armor</a></li>
+    <li><a href="Unique Weapons.html">Unique Weapons</a></li>
+    <li><a href="Unique Jewelry.html">Unique Jewelry</a> </li>
+    <li><a href="Unique Jewelry.html">Unique Jewelry</a> </li>
+  <li><a href="Unique Stuff.html">Unique Misc.</a></li>  
+  <li><a href="Sets.html">Set Items</a></li>
+  <li><a href="WhiteArmors.html">Base Armors</a></li>  
+  <li><a href="WhiteWeapons.html">Base Weapons</a></li>  
+  <li><a href="Gems.html">Gems</a></li>
+  <li><a href="RecipesNormal.html">Normal Recipes</a></li>  
+  <li><a href="RecipesMagical.html">Magic Recipes</a></li>
+  <li><a href="RecipesRare.html">Rare Recipes</a></li>
+  <li><a href="RecipesCrafted.html">Crafted Recipes</a></li>
+  <li><a href="RecipesSet.html">Set Recipes</a></li>
+  <li><a href="RecipesUnique.html">Unique Recipes</a></li>
+  <li><a href="RecipesOther.html">Other Recipes</a></li>
+    
+  </ul>
+ </body>
 </html>
