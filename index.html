@@ -5,89 +5,117 @@ body{background-color:#000000; color:#FFFFFF}
   ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10;
   overflow: hidden;
   background-color:color: #FFFFFF;
-  position: fixed;
   top: 240;
-  width: 100%;
-    font-size: 18px  
+
+  font-size: 18px  
+  display: block;
+  color: 998855;
+  text-align: center;
+  width:60%;
+  margin:1px auto
 }
 
     
 li {
-  float: left;
     
-  border: 1px solid #998855;
+  float: left;
+
+  
 }
 
 li a {
+    
   display: block;
   color: 998855;
   text-align: center;
   padding: 6px 16px;
-
   text-decoration: none;
+  
+  
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color:#998855;
-  color: black;
+ text-decoration: underline
+  
 }
 
 .active {
   background-color: #4CAF50;
 }
     
-div#wrapperHeader {
- width:100%;
- height;200px; /* height of the background image? */
- background:url(images/header.png) repeat-x 0 0;
- text-align:left;
+.banner {
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
 }
 
-div#wrapperHeader div#header {
- width:1000px;
- height:200px;
-  max-width: 100%;
+.banner img {
+  display: block;
+  margin: auto;
 }
 
-div#wrapperHeader div#header img {
- width:; /* the width of the logo image */
- height:; /* the height of the logo image */
- margin:0 auto;
-}    
-
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
   </style>
  <head>
    
  </head>
  <body>
-  <div id="wrapperHeader">
-    <div id="header">
-             <img src="https://i.imgur.com/Jq8YIc9.png"  alt="logo" />
-    </div> 
+<div class="banner">
+  <div class="row">
+    <img src="https://i.imgur.com/Jq8YIc9.png"  />
+  </div>
 </div>
-  <ul>
-    <li><a href="Runewords.html">Runewords</a></li>
-    <li>  <a href="Unique Armor.html">Unique Armor</a></li>
-    <li><a href="Unique Weapons.html">Unique Weapons</a></li>
-    <li><a href="Unique Jewelry.html">Unique Jewelry</a> </li>
-    <li><a href="Unique Jewelry.html">Unique Jewelry</a> </li>
-  <li><a href="Unique Stuff.html">Unique Misc.</a></li>  
-  <li><a href="Sets.html">Set Items</a></li>
-  <li><a href="WhiteArmors.html">Base Armors</a></li>  
-  <li><a href="WhiteWeapons.html">Base Weapons</a></li>  
-  <li><a href="Gems.html">Gems</a></li>
-  <li><a href="RecipesNormal.html">Normal Recipes</a></li>  
-  <li><a href="RecipesMagical.html">Magic Recipes</a></li>
-  <li><a href="RecipesRare.html">Rare Recipes</a></li>
-  <li><a href="RecipesCrafted.html">Crafted Recipes</a></li>
-  <li><a href="RecipesSet.html">Set Recipes</a></li>
-  <li><a href="RecipesUnique.html">Unique Recipes</a></li>
-  <li><a href="RecipesOther.html">Other Recipes</a></li>
+
+
+  <ul id="container">
+  <li class="item"><a href="Runewords.html">Runewords</a></li>
+  <li class="item"><a href="Unique Armor.html">Unique Armor</a></li>
+  <li class="item"><a href="Unique Weapons.html">Unique Weapons</a></li>    
+  <li class="item"><a href="Unique Jewelry.html">Unique Jewelry</a></li> 
+  <li class="item"><a href="Unique Stuff.html">Unique Misc.</a></li>  
+  <li class="item"><a href="Sets.html">Set Items</a></li>
+  <li class="item"><a href="WhiteArmors.html">Base Armors</a></li>  
+  <li class="item"><a href="WhiteWeapons.html">Base Weapons</a></li>  
+  <li class="item"><a href="Gems.html">Gems</a></li>
+</div>  
+  
+
+
+</div>
+
+<div class="navbar"> 
+  <li class="item"><a href="RecipesNormal.html">Normal Recipes</a></li>  
+  <li class="item"><a href="RecipesMagical.html">Magic Recipes</a></li>
+  <li class="item"><a href="RecipesRare.html">Rare Recipes</a></li>
+  <li class="item"><a href="RecipesCrafted.html">Crafted Recipes</a></li>
+  <li class="item"><a href="RecipesSet.html">Set Recipes</a></li>
+  <li class="item"><a href="RecipesUnique.html">Unique Recipes</a></li>
+  <li class="item"><a href="RecipesOther.html">Other Recipes</a></li>
+</div>
+
+<div class="navbar"> 
+  <li class="item"><a href="Prefixes.html">Prefixes</a></li>
+  <li class="item"><a href="Suffixes.html">Suffixes</a></li>   
+  <li class="item"><a href="BossStats.html">Boss Stats</a></li>
+  <li class="item"><a href="MonProps.html">Enemy Counters and Buffs</a></li>
+  
+  
+  
     
   </ul>
  </body>
